@@ -1,7 +1,7 @@
 title: My Blog
 description: My life blog. Live and Learn.
 author: Vinh Truong
-avatar: /logo.png
+avatar: /logo.jpg
 email: luckyandvinh@gmail.com
 
 plugins:
@@ -32,7 +32,7 @@ exclude:
 twitter:
   username: Vinh Truong
   card: summary
-logo: logo.png
+logo: /logo.jpg
 social:
   name: Vinh Truong
   links:
