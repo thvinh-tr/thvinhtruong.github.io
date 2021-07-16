@@ -10,6 +10,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
+skin: daylight
+
 paginate: 10
 
 # Uncomment the below line and set the tracking ID for enabling Google Analytics
@@ -41,3 +43,4 @@ social:
     - https://github.com/thvinhtruong
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
+
