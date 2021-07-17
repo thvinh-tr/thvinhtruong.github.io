@@ -24,15 +24,15 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter:  https://twitter.com/Vin_Trngg27
-    github: https://github.com/thvinhtruong 
+    twitter:  Vin_Trngg27
+    github: thvinhtruong 
     #linkedIn: 
     #dribbble: jekyll
     #flickr:   jekyll
-    instagram: https://www.instagram.com/vinn_trngg/
+    instagram: vinn_trngg/
     #pinterest: jekyll
     #youtube: jekyll
-    facebook: https://www.facebook.com/Vinh.2712
+    facebook: Vinh.2712
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
