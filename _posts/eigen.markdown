@@ -77,7 +77,7 @@ categories: Math Linear Algebra Eigenvalue Eigenvector
 
     - Others
 
-        <img src="img/eigen_img/Screen_Shot_2021-04-23_at_21.08.27.png">
+        <img src="/img/eigen_img/Screen_Shot_2021-04-23_at_21.08.27.png">
 
 Source: Wikipedia.
 
@@ -96,7 +96,7 @@ Source: Wikipedia.
     A = np.random.randn(5, 5)
     ```
 
-    <img src="img/eigen_img/Screen_Shot_2021-04-23_at_22.06.16.png">
+    <img src="/img/eigen_img/Screen_Shot_2021-04-23_at_22.06.16.png">
 
     ```python
     #initialize vector v
@@ -117,7 +117,7 @@ Source: Wikipedia.
     plt.show()
     ```
 
-    <img src ="img/eigen_img/Screen_Shot_2021-04-23_at_22.22.50.png">
+    <img src ="/img/eigen_img/Screen_Shot_2021-04-23_at_22.22.50.png">
 
     —> The norms just increase significantly. 
 
@@ -137,9 +137,9 @@ Source: Wikipedia.
     plt.show()
     ```
 
-    <img src="img/eigen_img/Screen_Shot_2021-04-25_at_11.14.37.png">
+    <img src="/img/eigen_img/Screen_Shot_2021-04-25_at_11.14.37.png">
 
-    <img src="img/eigen_img/Unknown.png">
+    <img src="/img/eigen_img/Unknown.png">
 
     —> The ratio ocillate in a stable value (about 1.98), which is also the largest eigenvalue, called "singular value".  —> this is so called "rate of convergence"
 
@@ -150,7 +150,7 @@ Source: Wikipedia.
     eigs_vals
     ```
 
-    <img src="img/eigen_img/Screen_Shot_2021-04-23_at_22.36.25.png">
+    <img src="/img/eigen_img/Screen_Shot_2021-04-23_at_22.36.25.png">
 
     —> This results contain many complex numbers. This can be thought of stretching or rotating.
 
@@ -162,7 +162,7 @@ Source: Wikipedia.
     print(f'norms of eigenvalues: {norm_eigs}')
     ```
 
-    <img src="img/eigen_img/Screen_Shot_2021-04-23_at_22.40.10.png">
+    <img src="/img/eigen_img/Screen_Shot_2021-04-23_at_22.40.10.png">
 
     The biggest value is 1.9744593214850743 —> this is so important that we can call it "principle eigenvalue", which is so close to our approximation (1.9744593214851518).
 
@@ -179,7 +179,7 @@ Source: Wikipedia.
     - As witness from the implementation above, we can obtain how to use this iterative method on finding eigenvalues.
     - Simply, we will apply dot product of an original matrix A to a vector V and continue apply A to the result A.v:
 
-        <img src="img/eigen_img/Screen_Shot_2021-04-24_at_20.33.33.png">
+        <img src="/img/eigen_img/Screen_Shot_2021-04-24_at_20.33.33.png">
 
         - For the large number of k —> we can obtain good approximation.
         - Example: We have matrix A and vector x.
@@ -188,7 +188,7 @@ Source: Wikipedia.
 
         - Then we can obtain:
 
-            <img src="img/eigen_img/Screen_Shot_2021-04-24_at_20.41.19.png">
+            <img src="/img/eigen_img/Screen_Shot_2021-04-24_at_20.41.19.png">
 
     c. Rayleigh quotient to get the eigenvalue
 
@@ -206,9 +206,9 @@ Source: Wikipedia.
 
     For the above example: we have 
 
-    <img src="img/eigen_img/Screen_Shot_2021-04-24_at_20.47.01.png">
+    <img src="/img/eigen_img/Screen_Shot_2021-04-24_at_20.47.01.png">
 
-    <img src="img/eigen_img/Screen_Shot_2021-04-24_at_20.48.14.png">
+    <img src="/img/eigen_img/Screen_Shot_2021-04-24_at_20.48.14.png">
 
     So, A.x. x = -20.0 and x. x = 9.94 —> $\lambda = \frac{A\cdot x \cdot x}{x \cdot x} = \frac{-20.0}{9.94} = -2.01$
 
