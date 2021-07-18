@@ -213,8 +213,8 @@ Source: Wikipedia.
 
     d. Rate of Convergence of Power Method
 
-    We have matrix $A = \begin{bmatrix} 4 & 5 \\ 6 & 5 \end{bmatrix}$ has eigenvalues $\lambda_1 = 10, \lambda_2 = -1$
+    We have matrix $$A = \begin{bmatrix} 4 & 5 \\ 6 & 5 \end{bmatrix}$ has eigenvalues $\lambda_1 = 10, \lambda_2 = -1$$
 
-    —> The ratio is $\frac{|\lambda_2|}{|\lambda_1|} = 0.1$
+    —> The ratio is $$\frac{|\lambda_2|}{|\lambda_1|} = 0.1$$
 
     e. Complexity: O(n^2)
