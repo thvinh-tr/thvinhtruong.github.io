@@ -8,7 +8,7 @@ categories: Math Linear Algebra Eigenvalue Eigenvector
 1. Characteristic Polynomial to find eigenvectors and eigenvalues.
     - Characteristic Polynomial of a square matrix is a polynomial which is invariant under matrix similarity and has the eigenvalues as roots (Wikipedia).
     - Trace of a square matrix is a sum of all element in the main diagonal of that matrix.
-    - Formula: $$A\cdot x = \lambda \cdot I \cdot x$$
+    - Formula: \\(A\cdot x = \lambda \cdot I \cdot x\\)
 
         → $$A \cdot x - \lambda \cdot I \cdot x = 0$$
 
@@ -215,6 +215,6 @@ Source: Wikipedia.
 
     We have matrix $$A = \begin{bmatrix} 4 & 5 \\ 6 & 5 \end{bmatrix}$$ has eigenvalues $$\lambda_1 = 10, \lambda_2 = -1$$
 
-    —> The ratio is $$\frac{|\lambda_2|}{|\lambda_1|} = 0.1$$
+    —> The ratio is \\(\frac{|\lambda_2|}{|\lambda_1|} = 0.1\\)
 
     e. Complexity: O(n^2)
