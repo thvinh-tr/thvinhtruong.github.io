@@ -9,11 +9,7 @@ categories: Math
     - Characteristic Polynomial of a square matrix is a polynomial which is invariant under matrix similarity and has the eigenvalues as roots (Wikipedia).
     - Trace of a square matrix is a sum of all element in the main diagonal of that matrix.
     - Formula: 
-        $$A\cdot x = \lambda \cdot I \cdot x$$
-
-        $$\Rightarrow A\cdot x - \lambda \cdot I \cdot x = 0$$
-
-        $$\Righarrow (A - \lambda\cdot I)\cdot x = 0$$
+        $$A\cdot x = \lambda \cdot I \cdot x \\ \Rightarrow A\cdot x - \lambda \cdot I \cdot x = 0 \\ \Rightarrow (A - \lambda\cdot I)\cdot x = 0$$
 
         For vector x not equal to zero —> $A - \lambda \cdot I = 0$ —> $det(A-\lambda \cdot I) = 0$ .
 
