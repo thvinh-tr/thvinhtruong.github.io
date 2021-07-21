@@ -3,6 +3,7 @@ layout: post
 title:  "Eigendecomposition and power method."
 date:   2021-07-18 23:26:36
 categories: Math
+sticky: true
 ---
 
 1. Characteristic Polynomial to find eigenvectors and eigenvalues.
