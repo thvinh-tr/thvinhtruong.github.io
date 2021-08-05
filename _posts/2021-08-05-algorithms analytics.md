@@ -68,11 +68,11 @@ sticky: true
 
         <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_16.39.33.png">
 
-    **A Display of the Growth of Functions Commonly Used in Big-O Estimates.**
+        **A Display of the Growth of Functions Commonly Used in Big-O Estimates.**
 
-    <img src = "algo_img/Screen_Shot_2021-07-23_at_16.40.27.png">
+        <img src = "algo_img/Screen_Shot_2021-07-23_at_16.40.27.png">
 
-    Source: Rosen textbook.
+        Source: Rosen textbook.
 
 1. How to calculate runtime?
     - Non-recursive:
