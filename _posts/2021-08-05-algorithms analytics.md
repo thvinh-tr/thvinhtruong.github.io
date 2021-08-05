@@ -66,13 +66,9 @@ sticky: true
         - It is easy to guess, big Theta is the average case of the algorithms.
         - For example, with $\theta(n)$, means that when n is big enough, runtime is smaller than k1 multiply n and bigger than k2 multiply n (see picture below).
 
-        <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_16.39.33.png">
+        <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_16.39.33.png" alt = "A Display of the Growth of Functions Commonly Used in Big-O Estimates">
 
-        **A Display of the Growth of Functions Commonly Used in Big-O Estimates.**
-
-        <img src = "algo_img/Screen_Shot_2021-07-23_at_16.40.27.png">
-
-        Source: Rosen textbook.
+        <img src = "algo_img/Screen_Shot_2021-07-23_at_16.40.27.png" alt = "Source: Rosen textbook">
 
 1. How to calculate runtime?
     - Non-recursive:
