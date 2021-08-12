@@ -116,9 +116,7 @@ sticky: true
 
         - To be more clear, we based on the asymptotic notation, the recursive method can be executed as follow:
 
-        <img src = "/img/alg_img/Screen_Shot_2021-07-23_at_17.29.17.png">
-
-            Source: Wikipedia.
+        <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_17.29.17.png">
 
             - means that, each time we solving a subproblem of a bigger problem. For example:
 
