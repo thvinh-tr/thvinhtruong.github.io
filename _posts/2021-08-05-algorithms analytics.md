@@ -18,6 +18,7 @@ sticky: true
         6. Effectiveness —> perform each step in a finite amount of time.
         7. Generality —> applicable for all problems of the desired form.
     - Runtime: number of execution of basic operator in a specific program. For example in linear search, runtime is N because it execute basic operation "==" N times (N is length of array).
+
 2. Asymptotic Notation.
     - Asymptotic notations are the mathematical notations used to describe the running time of an algorithm when the input tends towards a particular value or a limiting value.
     - We consider here the the very large input size (which is nearly to infinity) —> therefore we called it "Asymptotic". For example, consider the function:
@@ -68,7 +69,7 @@ sticky: true
 
         <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_16.39.33.png" alt = "A Display of the Growth of Functions Commonly Used in Big-O Estimates">
 
-        <img src = "algo_img/Screen_Shot_2021-07-23_at_16.40.27.png" alt = "Source: Rosen textbook">
+        <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_16.40.27.png" alt = "Source: Rosen textbook">
 
 1. How to calculate runtime?
     - Non-recursive:
@@ -115,7 +116,7 @@ sticky: true
 
         - To be more clear, we based on the asymptotic notation, the recursive method can be executed as follow:
 
-        <img src = "alg_img/Screen_Shot_2021-07-23_at_17.29.17.png">
+        <img src = "/img/alg_img/Screen_Shot_2021-07-23_at_17.29.17.png">
 
             Source: Wikipedia.
 
@@ -141,7 +142,7 @@ sticky: true
 
         —> in case 3 above, T(n) = f(n) = $\theta(n)$
 
-    ### 2. Sorting and Searching.
+2. Sorting and Searching.
 
     1. Binary Search.
         - Applied for sorted array.
