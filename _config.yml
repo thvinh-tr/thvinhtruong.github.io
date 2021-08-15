@@ -1,8 +1,7 @@
 title: Vinh Truong
 author: Vinh Truong
 email: luckyandvinh@gmail.com
-description: > # this means to ignore newlines until "show_exerpts:"
-  Blogging: Live and Learn.
+description: Live and Learn.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
