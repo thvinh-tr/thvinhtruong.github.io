@@ -9,6 +9,7 @@ sticky: true
 1. Basic Concept.
     - Basic operation: operation which is used most of the time. For example in linear search, "==" operation is a basic operation.
     - What is algorithms? An algorithm is a finite sequence of precise instructions for performing a computation or for solving a problem. (according Rosen in his textbook).
+
     - If you want to develop an algorithm, which properties should you consider?
         1. Input —> values from a specified set.
         2. Output —> a set of input values produces a set of output values.
@@ -104,21 +105,17 @@ sticky: true
         - Note that f(n) is the time to create the subproblems and combine their results in the above procedure.
         - T(n) has the following asymptotic bounds:
 
-        ```
-        		1. If f(n) = O(nlogb a-e), then T(n) = Θ(nlogb a).
+            1. If f(n) = O(nlogb a-e), then T(n) = Θ(nlogb a).
 
             2. If f(n) = Θ(nlogb a), then T(n) = Θ(nlogb a * log n).
 
-            3. If f(n) = Ω(nlogb a+e), then T(n) = Θ(f(n)).
-
-        		(e > 0 is a constant)
-        ```
+            3. If f(n) = Ω(nlogb a+e), then T(n) = Θ(f(n)) (e > 0 is a constant)
 
         - To be more clear, we based on the asymptotic notation, the recursive method can be executed as follow:
 
         <img src = "/img/algo_img/Screen_Shot_2021-07-23_at_17.29.17.png">
 
-            - means that, each time we solving a subproblem of a bigger problem. For example:
+        - means that, each time we solving a subproblem of a bigger problem. For example:
 
             ```cpp
             int Fibonanci(int n) {
@@ -128,12 +125,13 @@ sticky: true
             }
             ```
 
-            - In Fibonanci code, we use the recurrence relation: T(n) = T(n-1) + T(n-2), which means each time: T will be divided into T(n-1) and T(n-2). For T(n-1) will be divided into T(n-2) + T(n-3) and so on. The same with T(n-2).
-            - According to Master theorem,
-                1. each time we create subproblem from a bigger problem, the cost increase about a value, in the Fibonanci, it increases approximately 2^n times (google it for more precise value $n^{ log_b(n)}$). If it increases at a certain factor (like 2^n but it is not in our case for Master theorem 😅 sorry), therefore, the value of f(n) will become polynomially smaller than $n^{ log_b(n)}$. Thus, the time complexity is oppressed by the cost of the last level. (like $n^{ log_b(a)}$).
-                2. The same as 1, if the cost for creating is nearly equal, f(n) will become equal to $n^{ log_b(n)}$, then value will be total number of level (or step of execution) (like $n^{log_b a} * log(n)$
-                )
-                3. The same as 1,  if the cost for creating is nearly reduced, f(n) will become bigger than $n^{ log_b(n)}$, then value will be f(n).
+        - In Fibonanci code, we use the recurrence relation: T(n) = T(n-1) + T(n-2), which means each time: T will be divided into T(n-1) and T(n-2). For T(n-1) will be divided into T(n-2) + T(n-3) and so on. The same with T(n-2).
+        - According to Master theorem,
+            1. each time we create subproblem from a bigger problem, the cost increase about a value, in the Fibonanci, it increases approximately 2^n times (google it for more precise value $n^{ log_b(n)}$). If it increases at a certain factor (like 2^n but it is not in our case for Master theorem 😅 sorry), therefore, the value of f(n) will become polynomially smaller than $n^{ log_b(n)}$. Thus, the time complexity is oppressed by the cost of the last level. (like $n^{ log_b(a)}$).
+            2. The same as 1, if the cost for creating is nearly equal, f(n) will become equal to $n^{ log_b(n)}$, then value will be total number of level (or step of execution) (like $n^{log_b a} * log(n)$
+            )
+            3. The same as 1,  if the cost for creating is nearly reduced, f(n) will become bigger than $n^{ log_b(n)}$, then value will be f(n).
+            
         - Example: Solving:
 
         $$T(n) = 3 \cdot T(\frac{n}{2}) + 2\cdot n \\ \rightarrow log_b(a) = log_2(3)= 1.58 < 2$$
