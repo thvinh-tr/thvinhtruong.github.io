@@ -3,19 +3,47 @@ layout: default
 title: About me
 permalink: /about/
 
-About me:
-- Hello, there, I am a computer science student with curiosity about how computer can conquer human :)
-- I am currently studying in Vietnamese German University and will begin a new semester in Frankfurt University of Applied Science.
-- I am working on some stuffs about AI, math,... (I am still lucky that my mom and dad can earn enough money to feed me :D)
-
-- With this blog, I hope to get a lot of attention and become a Hollywood star or something.
-- However, you guys can check my CV or Resume at the end of this page!
-
+education:
+  - title: "Frankfurt University of Applied Science"
+    place: "Frankfurt am Main, Germany"
+    subtitle: "Bachelor of Science, Computer Science"
+    time: "2021 - present"
+    description: "I am one of 26 students to go to Germany to study"
+  - title: "Vietnamese-German University"
+    place: "Binh Duong, Vietnam"
+    subtitle: "Bachelor of Science, Computer Science"
+    time: "2019 - 2020"
+    description: "VGU is a Vietnamese public university. It establishes a partnership with Frankfurt University of
+    Applied Science in providing the Computer Science program to undergraduate students."
+  - title: "Tran Phu high school"
+    place: "Saigon, Vietnam"
+    time: "2016 - 2019"
+    description: "Tran Phu is a wonderful place where I have a lot of beautiful memories with friends"
 ---
 
 <blockquote>
     An equation means nothing to me unless it expresses a thought of God.<br>
     &mdash; Srinivasa Ramanujan
 </blockquote>
+<h1>about me</h1>
+<div>
+    <ul>
+        Hello, there, I am a computer science student with curiosity about how computer can conquer human :)
+        I am currently studying in Vietnamese German University and will begin a new semester in Frankfurt University of Applied Science.
+        I am working on some stuffs about AI, math,... (I am still lucky that my mom and dad can earn enough money to feed me :D)
+        With this blog, I hope to get a lot of attention and become a Hollywood star or something.
+        However, you guys can check my CV or Resume at the end of this page!
+    </ul>
+</div>
 
-<h1>About me</h1>
+
+
+<h1>education</h1>
+<hr>
+
+<ul>
+    {% for cv-entry in page.about %}
+    <li>{% include cv-entry.html %}</li>
+    <br>
+    {% endfor %}
+</ul>
