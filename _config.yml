@@ -5,12 +5,12 @@ description: Live and Learn.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize thiss
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Vinh Truong
-  tagline: The Pua Cốt Đơ (Vietnam based but get a Russian name)
+  name: Hniv
+  tagline: GnourT
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
