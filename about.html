@@ -26,23 +26,20 @@ education:
     &mdash; Srinivasa Ramanujan
 </blockquote>
 <h1>about me</h1>
-<div>
-    <ul>
-        Hello, there, I am a computer science student with curiosity about how computer can conquer human :)
-        I am currently studying in Vietnamese German University and will begin a new semester in Frankfurt University of Applied Science.
-        I am working on some stuffs about AI, math,... (I am still lucky that my mom and dad can earn enough money to feed me :D)
-        With this blog, I hope to get a lot of attention and become a Hollywood star or something.
-        However, you guys can check my CV or Resume at the end of this page!
-    </ul>
-</div>
-
-
+<hr>
+<p>
+    Hello, there, I am a computer science student with curiosity about how computer can conquer human :)
+    I am currently studying in Vietnamese German University and will begin a new semester in Frankfurt University of Applied Science.
+    I am working on some stuffs about AI, math,... (I am still lucky that my mom and dad can earn enough money to feed me :D)
+    With this blog, I hope to get a lot of attention and become a Hollywood star or something.
+    However, you guys can check my CV or Resume at the end of this page!
+</p>
 
 <h1>education</h1>
 <hr>
 
 <ul>
-    {% for cv-entry in page.about %}
+    {% for cv-entry in page.education %}
     <li>{% include cv-entry.html %}</li>
     <br>
     {% endfor %}
