@@ -1,4 +1,4 @@
-title: Vinh Truong
+title: workspaces
 author: Vinh Truong
 email: luckyandvinh@gmail.com
 description: Live and Learn.
@@ -10,7 +10,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Hniv
-  tagline: GnourT
+  tagline: Blog and stuffs
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
