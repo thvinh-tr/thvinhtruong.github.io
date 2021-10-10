@@ -3,7 +3,7 @@ layout: post
 title:  "KNN and K Means Cheatsheet"
 date:   2021-10-10 12:51:20
 categories: Algorithms
-sticky: true
+sticky: false
 ---
 
 1. KNN
