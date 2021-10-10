@@ -2,14 +2,15 @@
 layout: post
 title:  "KNN and K Means Cheatsheet"
 date:   2021-10-10 12:51:20
-categories: Algorithms
-sticky: false
+categories: Cheatsheet
+sticky: true
 ---
 
 1. KNN
     1. Classifier
         - KNN stands for K nearest neighborhood, where K here is the number of neighbor of an arbitrary data point.
         - Consider a model with data located in various labelled groups. When we add a new data point, it will consider what is the nearest distance from this data point to another. With that being said, new data will be classified intuitively.
+
             <img src="/img/knn_kmeans_img/K-nearest-neighbor-algorithm-illustration-The-green-circle-is-the-sample-which-is-to-be.png">
             
         - In the picture, the circle represents for the finite number of data points that are around the new input one (green circle), which means, in that circle, we can count the number of data point and consider which group the green should belong by calculating distance from green circle to other data point.
