@@ -68,7 +68,7 @@ sticky: true
         - Regression in KNN is not a big deal. Based on the similar method of calculating distance in K neighborhoods, we can approximate the output function which fits the data well.
         - However, in my opinion, it may usually cause overfitting with complex function or just simply huge dataset.
             
-            <img src="/img/knn_kmeans_img/Screen_Shot_2021-09-21_at_16.44.58.png" alt = "Source: Sklearn document>
+            <img src="/img/knn_kmeans_img/Screen_Shot_2021-09-21_at_16.44.58.png" alt = "Source: Sklearn document">
             
     3. Discussion
         - Disadvantage:
