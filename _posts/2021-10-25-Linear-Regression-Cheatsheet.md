@@ -1,6 +1,10 @@
-# Linear Regression Cheat Sheet
-
-Created: August 30, 2021 7:15 PM
+---
+layout: post
+title:  "Linear Regression Cheatsheet"
+date:   2021-10-25 10:10:20
+categories: Cheatsheet
+sticky: true
+---
 
 1. Overview
     - Linear regression is an interesting thing in statistic, which we can compute the future value of a function by feeding it with huge number of data (the spreading of data is linear).
