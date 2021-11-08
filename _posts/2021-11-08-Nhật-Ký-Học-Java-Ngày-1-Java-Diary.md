@@ -3,10 +3,10 @@ layout: post
 title:  "Nhật ký học Java"
 date:   2021-11-08 12:35:20
 categories: Cheatsheet
+sticky: true
 ---
 
-Hi,
-
+Hi, please read this message :)))
 Lên năm ba mới học Java, tính ra là trễ so với đám Gifted, nhưng mà thui, khá fun và high nên tui blog chơi cái này.
 
 Đầu tiên, là tải Java trước. Khá tiện, tải trên web sau đó double check version. Như thế này:

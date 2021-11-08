@@ -11,10 +11,8 @@ sticky: true
     - In other words, the more "linear" data is, the more precise we can predict.
     
     - Example:
-        
-        <img src = "/img/linear_reg_img/CricketPoints.svg">
-        
-        - It is easy to see that the data is increasing. Despite some weird behavior, it is generally increasing (or sometimes decreasing 😂)
+    <img src = "/img/linear_reg_img/CricketPoints.svg">
+    - It is easy to see that the data is increasing. Despite some weird behavior, it is generally increasing (or sometimes decreasing 😂)
     - So, for linear data (just simply call by that name), we can easily witness the future by our eyes, and so does machine.
     - Can take the housing problem as an example, suppose we want to evaluate a house with N square meters (area). We all know that the larger the house is, the more expensive it is. Therefore, we can easily predict (or evaluate) the price of a house based on its area.
     - Machine can learn this, what we need is an algorithm which can produce the nearly precise output, after eating a bunch of data in reality.
