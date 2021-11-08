@@ -13,8 +13,8 @@ sticky: true
     Like this:
     <img src = "/img/log_reg_img/Screenshot_2021-10-15_at_10.24.27.png" alt="source mạchinelearningcoban.com">
         
-        - At first glance, the output is clearly just 1 or 0 (1 means pass and 0 otherwise) —> this is so-called "binary classification".
-        - Then, based on the output, we can represent in graph with 2 regions located in line y = 1 and y = 0. Like this
+    - At first glance, the output is clearly just 1 or 0 (1 means pass and 0 otherwise) —> this is so-called "binary classification".
+    - Then, based on the output, we can represent in graph with 2 regions located in line y = 1 and y = 0. Like this
     <img src = "/img/log_reg_img/Screenshot_2021-10-15_at_10.27.46.png">
             
     - With this in mind, we can obviously use linear regression to draw a fitting line to the data and it may give the correct answer if we luckily have nearly zero noise. In other word, assume that there is a student spend very little time on studying but gain a better result than one who take a lot of time to study and suddenly fail the exam. Or, sometimes, someone cheated —> linear may give the wrong answer when that annoying point happens.
