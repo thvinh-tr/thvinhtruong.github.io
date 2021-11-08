@@ -53,12 +53,14 @@ sticky: true
         
         $$P(y_i|x_i, w) = z_i^{y_i}(1-z_i)^{1-y_i}$$
         
-        - In this formula, we can understand that x and y are random variables. For a training set: $X = [x_1, x_2, ..., x_{N}] \in R^{len(x) \times N}$and $y = [y_1, y_2,..., y_{N}]$ —> $P(y|X; \theta)$ (X and y are also random variables).
+    - In this formula, we can understand that x and y are random variables. For a training set: $X = [x_1, x_2, ..., x_{N}] \in R^{len(x) \times N}$and $y = [y_1, y_2,..., y_{N}]$ —> $P(y|X; \theta)$ (X and y are also random variables).
+    
     - For every element in X, it is clear that they are independent and happen at the same time (imaging a bunch of students, they do the exam independently together). According to the multiplication rule for the probability of the coincidence, we can obtain loss function:
         
         $$P(y|X; \theta) = \prod_{i=1}^{N}P(y_i|x_i;\theta) = \prod_{i=1}^{N}z_i^{y_i}(1-z_i)^{1-y_i}$$
         
     - From probability class, we all know that $P(y|X; theta)$ is a conditional probability in which we specified the likelihood or the probability that y = 0 or 1 happens with the given X and theta (X parameterized theta). If the student belong to class 1, we want P for y = 1 is super high and P for y = 0 is deeply low and vice versa.
+
     - With that in mind, we are likely to maximize that probability for loss function
 3. Optimization for Loss Function
     - Based on our idea in the previous section, obtain our goal is to find parameter theta that maximize P:
