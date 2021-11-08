@@ -8,9 +8,9 @@ sticky: true
 
 1. Overview
     - Linear regression is an interesting thing in statistic, which we can compute the future value of a function by feeding it with huge number of data (the spreading of data is linear).
-
     - In other words, the more "linear" data is, the more precise we can predict.
     - Example:
+    
     <img src = "/img/linear_reg_img/CricketPoints.svg">
     - It is easy to see that the data is increasing. Despite some weird behavior, it is generally increasing (or sometimes decreasing 😂)
     - So, for linear data (just simply call by that name), we can easily witness the future by our eyes, and so does machine.
