@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Logicstic Regression Cheatsheet"
-date:   2021-30-10 12:51:20
+date:   2021-11-08 12:51:20
 categories: Cheatsheet
 sticky: true
 ---
