@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Một chiếc note sql lộn xộn"
-date:   2021-10-10 12:51:20
+date:   2021-11-08 12:51:20
 categories: Note
 sticky: true
 ---
