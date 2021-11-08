@@ -3,7 +3,6 @@ layout: post
 title:  "Nhật ký học Java"
 date:   2021-11-08 12:35:20
 categories: Cheatsheet
-sticky: true
 ---
 
 Hi,

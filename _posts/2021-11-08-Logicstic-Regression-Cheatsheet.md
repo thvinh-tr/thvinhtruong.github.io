@@ -8,7 +8,9 @@ sticky: true
 
 1. Overview.
     - In linear regression, we face with prediction problem, which is related to linear data.
-    - Taking an example, building a system to decide a student is fail or pass the exam based on the hour he/she spent on studying. Like this:
+    - Taking an example, building a system to decide a student is fail or pass the exam based on the hour he/she spent on studying.
+
+    Like this:
         
         <img src = "/img/log_reg_img/Screenshot_2021-10-15_at_10.24.27.png" alt="source mạchinelearningcoban.com">
         
